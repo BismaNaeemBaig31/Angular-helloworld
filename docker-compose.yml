@@ -4,10 +4,10 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    image: frontend
+    image: frontend:${BUILD_ID}
     ports:
       - "74:80"
-    environment:
-      BUILD_ID: 5
+      
+  
 
 
