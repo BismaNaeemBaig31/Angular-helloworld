@@ -6,7 +6,7 @@ services:
       dockerfile: Dockerfile
     image: frontend:${BUILD_ID}
     ports:
-      - "74:80"
+      - "77:80"
       
   
 
