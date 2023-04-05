@@ -6,5 +6,5 @@ services:
       dockerfile: Dockerfile
     image: frontend
     ports:
-      - "71:80"
+      - "72:80"
 
