@@ -8,5 +8,5 @@ services:
     ports:
        "74:80"
       environment:
-      - BUILD_ID=5
+       BUILD_ID=5
 
