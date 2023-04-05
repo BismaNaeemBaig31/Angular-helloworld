@@ -6,7 +6,7 @@ services:
       dockerfile: Dockerfile
     image: frontend
     ports:
-      - "74:80"
+       "74:80"
       environment:
       - BUILD_ID=5
 
