@@ -6,7 +6,7 @@ services:
       dockerfile: Dockerfile
     image: ${IMAGE}:${BUILD_ID}
     ports:
-      - "PORT:80"
+      - "${PORT}:80"
       
   
 
