@@ -4,7 +4,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    image: frontend:${BUILD_ID}
+    image: ${IMAGE}:${BUILD_ID}
     ports:
       - "95:80"
       
